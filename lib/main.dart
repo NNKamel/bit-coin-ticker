@@ -9,11 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark().copyWith(
           primaryColor: Colors.lightBlue,
-<<<<<<< Updated upstream
           scaffoldBackgroundColor: Colors.black87),
-=======
-          scaffoldBackgroundColor: Colors.white),
->>>>>>> Stashed changes
       home: PriceScreen(),
     );
   }
